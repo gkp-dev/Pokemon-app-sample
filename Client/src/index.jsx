@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './index.css';
 import App from './App';
-import SinglePokemon from './components/SinglePokemon/SinglePokemon';
+import SinglePokemon from './pages/SinglePokemon';
 import 'materialize-css/dist/css/materialize.min.css';
 
 ReactDOM.render(

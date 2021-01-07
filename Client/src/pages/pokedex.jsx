@@ -1,6 +1,6 @@
 import React from 'react';
-import Pokemon from './pokemon-card';
-import './scss/pokedex.css'
+import Pokemon from '../components/pokemon-card';
+import '../components/scss/pokedex.css'
 
 function Pokedex({ pokemonList }) {
 

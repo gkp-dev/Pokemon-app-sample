@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Title from './title-pokemon';
-import Identite from './identite';
-import Attaques from './attaques';
-import '../scss/singlePokemon.css'
+import Title from '../components/title-pokemon';
+import Identite from '../components/identite';
+import Attaques from '../components/attaques';
+import '../components/scss/singlePokemon.css';
 
 
 function Pokemon({match}) {
